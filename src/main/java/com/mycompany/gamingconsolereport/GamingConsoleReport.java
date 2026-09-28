@@ -47,4 +47,26 @@ cityTotals[i] = rowTotal;
 System.out.println();
 }
 
+System.out.println("--------------------------------------------------\n");
 
+// --- DISPLAY CITY TOTALS AND MAXIMUM SALES ---
+System.out.println("CONSOLE SALES TOTALS FOR EACH CITY");
+System.out.println("--------------------------------------------------");
+
+int maxSales = cityTotals[0];
+int maxIndex = 0;
+
+for (int i = 0; i < cities.length; i++) {
+System.out.printf("%-16s%d%n", cities[i], cityTotals[i]);
+
+// Determine city with highest sales
+if (cityTotals[i] > maxSales) {
+maxSales = cityTotals[i];
+maxIndex = i;
+}
+}
+
+System.out.println("\nCITY WITH THE MOST SALES: " + cities[maxIndex]);
+System.out.println("--------------------------------------------------");
+}
+}
