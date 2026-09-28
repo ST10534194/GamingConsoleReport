@@ -49,8 +49,8 @@ System.out.println();
 
 System.out.println("--------------------------------------------------\n");
 
-// --- DISPLAY CITY TOTALS AND MAXIMUM SALES ---
-System.out.println("CONSOLE SALES TOTALS FOR EACH CITY");
+// --- DISPLAY OF CITY TOTALS AND MAXIMUM SALES ---
+System.out.println("Total Console Sales For Each City");
 System.out.println("--------------------------------------------------");
 
 int maxSales = cityTotals[0];
