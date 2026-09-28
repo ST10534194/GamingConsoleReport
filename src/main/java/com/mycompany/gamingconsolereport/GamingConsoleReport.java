@@ -66,7 +66,7 @@ maxIndex = i;
 }
 }
 
-System.out.println("\nCITY WITH THE MOST SALES: " + cities[maxIndex]);
+System.out.println("\nCITY WITH THE Highest Number Of SALES: " + cities[maxIndex]);
 System.out.println("--------------------------------------------------");
 }
 }
